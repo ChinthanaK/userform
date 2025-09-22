@@ -1,8 +1,8 @@
-
+import AddUser from "./components/users/AddUser";
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
+    <div>
+      <AddUser/>
     </div>
   );
 }
