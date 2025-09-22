@@ -5,6 +5,8 @@ import "./ErrorModal.css"
 
 const ErrorModal = (props) => {
   return (
+     <div>
+      <div className="backdrop"></div>
    <Card className="modal">
         <header className='header'>
             <h2>{props.title}</h2>
@@ -16,6 +18,7 @@ const ErrorModal = (props) => {
             <Button onClick={props.onConfirm}>Okay</Button>
         </footer>
    </Card>
+   </div>
   )
 }
 
